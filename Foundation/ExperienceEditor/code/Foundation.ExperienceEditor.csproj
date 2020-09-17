@@ -81,10 +81,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\EditFieldsCommand.cs" />
+    <Compile Include="Commands\EditRenderingPropertiesCommand.cs" />
     <Compile Include="Extensions\ItemExtensions.cs" />
+    <Compile Include="Models\CustomRenderingParameters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\Foundation.ExperienceEditor.config" />
+    <Content Include="sitecore\shell\Applications\Page Modes\ChromeTypes\RenderingChromeType.js" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.Mvc">
       <Version>5.2.4</Version>
