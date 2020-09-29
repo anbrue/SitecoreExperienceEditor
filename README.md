@@ -20,8 +20,11 @@ Edit Context Item Button
 Steps to do 
 
 1 Put in the Foundation.ExperienceEditor Project into your solution 
+
 2 Install the packages from /Packages 
+
 3 Check the RenderingChromeType.js: if you have customized it already, search for the following lines and move them to your custom file: 
+
 
 	line 221-224: 
   	/* Added custom command for calling SitecoreCommand from JS*/
