@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Foundation.ExperienceEditor.config" />
+    <Content Include="Scripts\ExperienceEditor\Commands\editContextItem.js" />
     <Content Include="sitecore\shell\Applications\Page Modes\ChromeTypes\RenderingChromeType.js" />
   </ItemGroup>
   <ItemGroup>
